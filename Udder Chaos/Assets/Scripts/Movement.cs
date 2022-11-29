@@ -67,7 +67,7 @@ public class Movement : MonoBehaviour
         {
             audioSource.PlayOneShot(mainEngine);
         }
-        if (!middleParticles.isPlaying)
+        if (!middleParticles.isPlaying || middleParticles.isPlaying)
         {
             middleParticles.Play();
         }
