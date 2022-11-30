@@ -73,7 +73,8 @@ public class CollisionHandler : MonoBehaviour
     {
         isTransitioning = true;
         audioSource.Stop();
-        audioSource.PlayOneShot(deadSound);
+        GetComponent<Renderer>().enabled = false;
+        audioSource.PlayOneShot(deadSound, UnityEngine.Random.Range(0.6f, 0.7f));
         crashParticles.Play();
         GetComponent<Movement>().enabled = false;
         Invoke("ReloadLevel", levelLoadDelay);

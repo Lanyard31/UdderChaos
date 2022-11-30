@@ -15,12 +15,15 @@ public class Movement : MonoBehaviour
 
     Rigidbody rb;
     AudioSource audioSource;
+    Renderer rend;
+
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
+        rend = GetComponent<Renderer>();
     }
 
     // Update is called once per frame
@@ -32,7 +35,7 @@ public class Movement : MonoBehaviour
 
     void ProcessThrust()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && rend.enabled == true)
         {
             StartThrusting();
         }

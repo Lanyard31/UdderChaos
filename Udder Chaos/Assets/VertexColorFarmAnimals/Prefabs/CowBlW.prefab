@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 1807041773}
   - component: {fileID: 1807041767}
   - component: {fileID: 1807041774}
+  - component: {fileID: 484630974}
   m_Layer: 0
   m_Name: CowBlW
   m_TagString: Untagged
@@ -33,7 +34,7 @@ Transform:
   m_GameObject: {fileID: 1287295899898638}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3851682180950982078}
@@ -141,8 +142,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.9201804, y: 1.5878397, z: 2.204834}
-  m_Center: {x: 0.003677071, y: 0.7879247, z: 0.18635763}
+  m_Size: {x: 0.9201803, y: 1.316034, z: 2.204834}
+  m_Center: {x: 0.0036770822, y: 0.6620218, z: 0.1863576}
 --- !u!82 &1807041773
 AudioSource:
   m_ObjectHideFlags: 0
@@ -252,7 +253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainThrust: 1000
-  rotationThrust: 100
+  rotationThrust: 108
   mainEngine: {fileID: 8300000, guid: fabebe5bd00e9764eba55b2ec15a8569, type: 3}
   leftParticles: {fileID: 8585177143073406583}
   rightParticles: {fileID: 2669101010810581522}
@@ -274,6 +275,18 @@ MonoBehaviour:
   deadSound: {fileID: 8300000, guid: 856df6b7ca6c3d4429132e933411601e, type: 3}
   successParticles: {fileID: 4016314762403553896}
   crashParticles: {fileID: 8120067636686725025}
+--- !u!114 &484630974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287295899898638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20b096b911f0a3c4e95ad96b230201b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3249275847093431408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -569,7 +582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198100719057022332, guid: a3553fd250eb92d4091bebde350c6739, type: 3}
       propertyPath: InitialModule.maxNumParticles
-      value: 10000
+      value: 20000
       objectReference: {fileID: 0}
     - target: {fileID: 198100719057022332, guid: a3553fd250eb92d4091bebde350c6739, type: 3}
       propertyPath: CollisionModule.m_Bounce.scalar
@@ -589,7 +602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198100719057022332, guid: a3553fd250eb92d4091bebde350c6739, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 198100719057022332, guid: a3553fd250eb92d4091bebde350c6739, type: 3}
       propertyPath: CollisionModule.collidesWith.m_Bits

@@ -6,9 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: ffe303ed1cc2bcd4cab7f62f10039b01
+  - enabled: 1
     path: Assets/Scenes/Over.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Under.unity
-    guid: 52bd9832f189a164c87048761d95b323
+    path: Assets/Scenes/Under_2.unity
+    guid: 96016d57b8c87e8429cf33a60b99abef
+  - enabled: 1
+    path: Assets/Scenes/Through.unity
+    guid: f7e31b3ec882cc6419fa334b12fa5b44
+  - enabled: 1
+    path: Assets/Scenes/Another.unity
+    guid: 1a7edc18dc2a88844b5fa4d9e5e6be46
+  - enabled: 1
+    path: Assets/Scenes/Diagonals.unity
+    guid: 8e8d3bc1edaf8f546b45b593f50d2582
+  - enabled: 1
+    path: Assets/Scenes/Gap.unity
+    guid: 0e95ff841e309a14096a8d4c926737f1
+  - enabled: 1
+    path: Assets/Scenes/Diagonals_2.unity
+    guid: 44115b4824d63094d9ea7bee9e0fa69b
+  - enabled: 1
+    path: Assets/Scenes/Another 1.unity
+    guid: e010e270db1c1c34f839d548f9bec397
+  - enabled: 1
+    path: Assets/Scenes/DonutWin.unity
+    guid: 6498a92c2225ea84880591ec6fedd646
   m_configObjects: {}
