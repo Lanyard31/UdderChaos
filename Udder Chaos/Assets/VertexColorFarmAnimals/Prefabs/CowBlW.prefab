@@ -273,6 +273,7 @@ MonoBehaviour:
   levelLoadDelay: 2
   winSound: {fileID: 8300000, guid: f78afac9ff1005547bbb5d03234e6f9f, type: 3}
   deadSound: {fileID: 8300000, guid: 856df6b7ca6c3d4429132e933411601e, type: 3}
+  thump: {fileID: 8300000, guid: 30bf57c37c08b214c9e02c7d768a65db, type: 3}
   successParticles: {fileID: 4016314762403553896}
   crashParticles: {fileID: 8120067636686725025}
 --- !u!114 &484630974

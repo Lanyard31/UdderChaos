@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Title.unity
-    guid: ffe303ed1cc2bcd4cab7f62f10039b01
+    path: Assets/Scenes/title2.unity
+    guid: f2c56d6256f49ba4e875ae6ba285cd99
+  - enabled: 1
+    path: Assets/Scenes/musicstart.unity
+    guid: c46605c2885489c47a0c295764d97358
   - enabled: 1
     path: Assets/Scenes/Over.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
@@ -27,7 +30,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Gap.unity
     guid: 0e95ff841e309a14096a8d4c926737f1
   - enabled: 1
-    path: Assets/Scenes/Diagonals_2.unity
+    path: Assets/Scenes/Diagonals2.unity
+    guid: f592af3ee6a67164689dbd5ebe4b7d63
+  - enabled: 1
+    path: Assets/Scenes/Gap 2.unity
+    guid: 767deb3683bc9b545a8fed725deaa94e
+  - enabled: 1
+    path: Assets/Scenes/Diagonals3.unity
     guid: 44115b4824d63094d9ea7bee9e0fa69b
   - enabled: 1
     path: Assets/Scenes/Another 1.unity

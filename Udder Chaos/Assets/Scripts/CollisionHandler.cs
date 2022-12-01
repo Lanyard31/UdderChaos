@@ -7,6 +7,7 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] float levelLoadDelay = 2f;
     [SerializeField] AudioClip winSound;
     [SerializeField] AudioClip deadSound;
+    [SerializeField] AudioClip thump;
 
     [SerializeField] ParticleSystem successParticles;
     [SerializeField] ParticleSystem crashParticles;
@@ -45,7 +46,10 @@ public class CollisionHandler : MonoBehaviour
 
         switch (other.gameObject.tag)
         {
+            case "Begin":
+                break;
             case "Friendly":
+                audioSource.PlayOneShot(thump, UnityEngine.Random.Range(0.6f, 0.7f));
                 break;
             case "Finish":
                 StartSuccessSequence();
